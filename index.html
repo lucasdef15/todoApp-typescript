@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/main.ts" defer></script>
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <header>
+      <section class="addPost">
+        <h2 class="title">Add New Post</h2>
+        <form class="postForm" id="postEntryForm">
+          <label for="postTitle">Post Title:</label>
+          <input
+            class="inputFormatter"
+            type="text"
+            id="postTitle"
+            name="postTitle"
+          />
+
+          <label for="postBody">Content: </label>
+          <textarea
+            class="inputFormatter textarea"
+            name="postBody"
+            id="postBody"
+          ></textarea>
+          <button class="postFormBtn">Save Post</button>
+        </form>
+      </section>
+    </header>
+    <main>
+      <section class="posts" id="postsItems">
+        <h2 class="title">Posts</h2>
+        <article class="post">
+          <h3>hey</h3>
+          <p>hoy</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
